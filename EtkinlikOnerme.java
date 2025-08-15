@@ -2,7 +2,7 @@ package ödev;
 
 import java.util.Scanner;
 
-public class HavaSicakliği {
+public class EtkinlikOnerme {
     public static void main(String[] args) {
         int heat;
         Scanner input = new Scanner(System.in);

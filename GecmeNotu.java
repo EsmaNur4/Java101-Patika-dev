@@ -22,7 +22,7 @@ public class GecmeNotu {
         System.out.print("muzik notunuzu giriniz ");
         muzik = inp.nextInt();
 
-        double ortalama = (mat + fizik + kimya + turkce + muzik) / 5;
+        double ortalama = (mat + fizik + kimya + turkce + muzik) / 5.0;
         if (ortalama >= 55) {
             System.out.println("Tebrikler Gectiniz !");
         } else {

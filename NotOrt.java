@@ -21,7 +21,7 @@ public class NotOrt {
         System.out.print("muzik notunuzu giriniz ");
         muzik = inp.nextInt();
 
-        double ortalama = (mat + fizik + kimya + tarih + turkce + muzik) / 6;
+        double ortalama = (mat + fizik + kimya + tarih + turkce + muzik) / 6.0;
         System.out.println("ortalamanız:" + ortalama);
 
         boolean gectiMi = ortalama > 60;

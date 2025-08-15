@@ -2,7 +2,7 @@ package ödev;
 
 import java.util.Scanner;
 
-public class UcSayiSiralama {
+public class SayiSiralama {
     public static void main(String[] args) {  // Girilen 3 sayiyi kucukten buyuge siralayan program
         int a, b, c;
         Scanner inp = new Scanner(System.in);
